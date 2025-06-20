@@ -1,17 +1,34 @@
-# Make a new project folder
-mkdir SignatureForgeryDetection
-cd SignatureForgeryDetection
+# 🖋️ Signature Forgery Detection using Deep Learning
 
-# Move the .ipynb file into the folder
-# (or manually move it using File Explorer)
+This project focuses on detecting forged signatures using deep learning techniques implemented in a Jupyter Notebook. It applies image preprocessing and Convolutional Neural Networks (CNN) to classify whether a signature is **genuine** or **forged**.
 
-# Initialize Git and add your file
-git init
-git add SignatureForgeryDetection.ivp.ipynb
-git commit -m "Add signature forgery detection notebook"
+---
 
-# Link to GitHub repository
-git remote add origin https://github.com/YOUR_USERNAME/SignatureForgeryDetection.git
+## 📌 Features
 
-# Push to GitHub
-git push -u origin master  # or `main`, based on GitHub default branch
+- ✅ Preprocessing of signature images
+- 🧠 Deep learning-based CNN model
+- 📊 Training and evaluation using labeled datasets
+- 📈 Accuracy metrics and visualizations
+- 🔍 Binary classification: Genuine vs Forged
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.x
+- Jupyter Notebook
+- NumPy, Pandas
+- OpenCV or PIL (image processing)
+- TensorFlow / Keras
+- Matplotlib, Seaborn
+
+---
+
+## 📂 Dataset
+
+The model can be trained on signature datasets like:
+- [CEDAR Signature Dataset](http://www.iapr-tc11.org/mediawiki/index.php/CEDAR_Forgery_Database)
+- Any other dataset containing paired `genuine` and `forged` signature images.
+
+Make sure the folder structure is like:
